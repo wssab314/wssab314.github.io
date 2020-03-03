@@ -4,13 +4,32 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2020/03/03/hello-world/"/>
-    <url>/2020/03/03/hello-world/</url>
+    <title>git报错：fatal HttpRequestException encountered. remote Invalid username or password. 解决方案</title>
+    <link href="/2020/03/03/git%E6%8A%A5%E9%94%99%EF%BC%9Afatal%20HttpRequestException%20encountered.%20remote%20Invalid%20username%20or%20password.%20%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <url>/2020/03/03/git%E6%8A%A5%E9%94%99%EF%BC%9Afatal%20HttpRequestException%20encountered.%20remote%20Invalid%20username%20or%20password.%20%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="git报错：fatal-HttpRequestException-encountered-remote-Invalid-username-or-password-解决方案"><a href="#git报错：fatal-HttpRequestException-encountered-remote-Invalid-username-or-password-解决方案" class="headerlink" title="git报错：fatal: HttpRequestException encountered. remote: Invalid username or password. 解决方案"></a>git报错：fatal: HttpRequestException encountered. remote: Invalid username or password. 解决方案</h1><h2 id="出师不利"><a href="#出师不利" class="headerlink" title="出师不利"></a>出师不利</h2><ul><li><p>在我写完博客准备上传github时候 敲完git push之后，git bash弹出了一个登录框。</p></li><li><p>输完用户名和密码后 git bash 报错， 上传失败</p><p>错误如下</p><pre><code class="git">fatal: HttpRequestException encountered.   ▒▒▒▒▒▒▒▒ʱ▒▒▒▒remote: Invalid username or password.fatal: Authentication failed for &#39;https://github.com/(username)/&#39;</code></pre></li></ul><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><ul><li>打开github，点击右上角头像下拉框</li><li>选择倒数第二个 <code>settings</code></li><li>右侧导航栏中选择最后一个<code>Developer settings</code></li><li>右侧导航栏选择最后一个<code>Personal access tokens</code></li><li>点击按钮<code>Generate new token</code></li><li>给予token权限</li><li>生成token后复制token</li><li><code>git push</code></li><li>在需要输密码的地方一律输入刚才生成的token</li><li>解决！</li></ul>]]></content>
     
     
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>启：我的第一篇文章</title>
+    <link href="/2020/03/03/%E5%90%AF%EF%BC%9A%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <url>/2020/03/03/%E5%90%AF%EF%BC%9A%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h1><p> <img src="/img/background-1.jpg" srcset="/img/loading.gif" alt=""></p><h2 id="建立博客的原因"><a href="#建立博客的原因" class="headerlink" title="建立博客的原因"></a>建立博客的原因</h2><ul><li>帮助自己总结学过的知识点</li><li>记录日常生活的琐碎</li><li>让简历变得好看</li></ul><h2 id="技术方向"><a href="#技术方向" class="headerlink" title="技术方向"></a>技术方向</h2><ul><li>我的目标是做一名前端工程师，所以博客分享的主要内容是前端相关的新鲜技术或是基础知识。对我来说主要起到总结记忆和便于整理的效果，同时也是分享个人见解和想法的地方。</li></ul><h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><ul><li>因为我非常喜欢健身，所以也会分享一些自己的健身心得或者是增肌（减脂）期的食谱。</li></ul><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul><li>希望这个博客可以帮助我成为一个自己想成为的人。</li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>闲言</tag>
+      
+    </tags>
     
   </entry>
   

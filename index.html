@@ -43,7 +43,7 @@
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
-       href="/">&nbsp;<strong>Hexo</strong>&nbsp;</a>
+       href="/">&nbsp;<strong>Aibu's BLOG</strong>&nbsp;</a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -107,7 +107,7 @@
 </nav>
 
     <div class="view intro-2" id="background" parallax=true
-         style="background: url('/img/default.png')no-repeat center center;
+         style="background: url('/img/background.jpg')no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask rgba-black-light flex-center">
@@ -144,29 +144,83 @@
     
     
     <div class="col-12 col-md-8 mx-auto index-info">
-      <a href="/2020/03/03/hello-world/">
-        <p class="h4 index-header">Hello World</p>
+      <a href="/2020/03/03/git%E6%8A%A5%E9%94%99%EF%BC%9Afatal%20HttpRequestException%20encountered.%20remote%20Invalid%20username%20or%20password.%20%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">
+        <p class="h4 index-header">git报错：fatal HttpRequestException encountered. remote Invalid username or password. 解决方案</p>
       </a>
 
-      <a href="/2020/03/03/hello-world/">
+      <a href="/2020/03/03/git%E6%8A%A5%E9%94%99%EF%BC%9Afatal%20HttpRequestException%20encountered.%20remote%20Invalid%20username%20or%20password.%20%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">
         
         
           
         
         <div class="index-excerpt" >
-          <div class="index-text mb-1">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new "My New Post"
+          <div class="index-text mb-1">git报错：fatal: HttpRequestException encountered. remote: Invalid username or password. 解决方案出师不利
+在我写完博客准备上传github时候 敲完git push之后，git bash弹出了一个登录框。
 
-More info: Writing
-Run server1$ hexo server
+输完用户名和密码后 git bash 报错， 上传失败
+错误如下
+fatal: HttpRequestException encountered.
+   ▒▒▒▒▒▒▒▒ʱ▒▒▒▒
+remote: Invalid username or password.
+fatal: Authentication failed for &#39;https://github.com/(username)/&#39;
 
-More info: Server
-Generate static files1$ hexo generate
 
-More info: Generating
-Deploy to remote sites1$ hexo deploy
+解决方案
+打开github，点击右上角头像下拉框
+选择倒数第二个 settings
+右侧导航栏中选择最后一个Developer settings
+右侧导航栏选择最后一个Personal access tokens
+点击按钮Generate new token
+给予token权限
+生成token后复制</div>
+        </div>
+      </a>
 
-More info: Deployment
+      <div class="index-btm">
+        
+          <i class="iconfont icon-riqi2"></i>&nbsp;2020-03-03&nbsp;&nbsp;
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto">
+        <a href="/2020/03/03/%E5%90%AF%EF%BC%9A%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" target="_self">
+          <img src="/img/background.jpg" srcset="/img/loading.gif" alt="启：我的第一篇文章" class="index-img img-fluid rounded index-thumbnails">
+        </a>
+      </div>
+    
+    <div class="col-12 col-md-8 mx-auto index-info">
+      <a href="/2020/03/03/%E5%90%AF%EF%BC%9A%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
+        <p class="h4 index-header">启：我的第一篇文章</p>
+      </a>
+
+      <a href="/2020/03/03/%E5%90%AF%EF%BC%9A%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
+        
+        
+          
+        
+        <div class="index-excerpt" >
+          <div class="index-text mb-1">第一篇文章 
+建立博客的原因
+帮助自己总结学过的知识点
+记录日常生活的琐碎
+让简历变得好看
+
+技术方向
+我的目标是做一名前端工程师，所以博客分享的主要内容是前端相关的新鲜技术或是基础知识。对我来说主要起到总结记忆和便于整理的效果，同时也是分享个人见解和想法的地方。
+
+生活
+因为我非常喜欢健身，所以也会分享一些自己的健身心得或者是增肌（减脂）期的食谱。
+
+总结
+希望这个博客可以帮助我成为一个自己想成为的人。
+
 </div>
         </div>
       </a>
@@ -176,6 +230,11 @@ More info: Deployment
           <i class="iconfont icon-riqi2"></i>&nbsp;2020-03-03&nbsp;&nbsp;
         
         
+        
+          <i class="iconfont icon-tag"></i>
+          
+            <a href="/tags/%E9%97%B2%E8%A8%80">闲言</a>&nbsp;
+          
         
       </div>
     </div>
@@ -225,26 +284,12 @@ More info: Deployment
 
   <footer class="mt-5">
   <div class="text-center py-3">
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><b>Hexo</b></a>
+    <a href="" target="_blank" rel="nofollow noopener"><b>Aibu</b></a>
     <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"> <b>Fluid</b></a>
+    <a href="" target="_blank" rel="nofollow noopener"> <b>DanDan</b></a>
     <br>
 
     
-  
-    <!-- 不蒜子统计PV -->
-    
-    &nbsp;<span id="busuanzi_container_site_pv"></span>总访问量 
-          <span id="busuanzi_value_site_pv"></span> 次&nbsp;
-  
-  
-    <!-- 不蒜子统计UV -->
-    
-    &nbsp;<span id="busuanzi_container_site_uv"></span>总访客数 
-            <span id="busuanzi_value_site_uv"></span> 人&nbsp;
-  
-  <br>
-
 
 
     
@@ -308,7 +353,7 @@ More info: Deployment
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "&nbsp;",
+        "Aibu's 个人博客&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
